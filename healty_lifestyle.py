@@ -16,7 +16,7 @@ load_dotenv()
 
 # Set up API keys
 GENAI_API_KEY = os.getenv("Gemini_API")
-DEEPGRAM_API_KEY = os.getenv("Deepgram_API")
+DEEPGRAM_API_KEY = os.getenv("DEEPGRAM_API")
 
 # Configure Gemini
 genai.configure(api_key=GENAI_API_KEY)
